@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="keyword1,keyword2,keyword3"/>
+    <meta name="description" content="this is my page"/>
+    <title>POI读取Excel测试</title>
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    <form name="f1" id="f1" action="/PoiExcel/servlet/ExcelWriteServlet2" method="get">
+      <table>
+        <tr>
+          <td colspan="2"><input type="submit" value="使用数据集创建Excel文件"></td>
+        </tr>
+      </table>
+    </form>
+    <form name="f2" id="f2" action="/PoiExcel/servlet/ExcelWriteServlet2" method="post">
+      <table>
+        <tr>
+          <td colspan="2"><input type="submit" value="读取Excel模板根据单元格坐标写入数据集并另存为Excel文件"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
